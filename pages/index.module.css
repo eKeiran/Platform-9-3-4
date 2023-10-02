@@ -1,0 +1,230 @@
+.homeChild {
+  position: absolute;
+  top: 0;
+  left: 95rem;
+  width: 100rem;
+  height: 100rem;
+  opacity: 0.8;
+}
+.cultivatingSafetyThrough,
+.platform9 {
+  margin: 0;
+  position: absolute;
+  display: inline-block;
+}
+
+.platform9 {
+  top: 6.5rem;
+  left: 7.81rem;
+  font-size: 15rem;
+  font-weight: 400;
+  font-family: var(--font-playfair-display);
+  color: var(--color-darkslategray);
+  
+}
+.cultivatingSafetyThrough {
+  top: 25.75rem;
+  left: 10rem;
+  font-size: 5rem;
+  font-weight: 300;
+  font-family: inherit;
+  color: #626262;
+  width: 60rem;
+  height: 11.69rem;
+}
+.frameChild,
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-21xl) var(--br-21xl) 0 0;
+  height: 60rem;
+}
+.frameChild {
+  width: 30rem;
+  object-fit: cover;
+}
+.frameItem {
+  background: linear-gradient(180deg, #366683, rgba(27, 73, 101, 0.52));
+  width: 30rem;
+}
+.crowdManagement {
+  position: absolute;
+  top: 2.09rem;
+  left: 2.63rem;
+  font-size: var(--font-size-21xl);
+  font-weight: 300;
+  font-family: var(--font-open-sans);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 16.75rem;
+  height: 7.8rem;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 52rem;
+  left: 15rem;
+  box-shadow: 12px 11px 0 rgba(0, 0, 0, 0.25);
+  width: 30rem;
+  height: 80rem;
+  border-radius: 40px;
+}
+.frameInner,
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-21xl) var(--br-21xl) 0 0;
+  height: 70rem;
+}
+.frameInner {
+  width: 30rem;
+  object-fit: cover;
+  
+}
+.rectangleDiv {
+  background: linear-gradient(180deg, #366683, rgba(27, 73, 101, 0.52));
+  width: 30rem;
+}
+.crime {
+  margin: 0;
+}
+.crimeAndViolenceContainer {
+  position: absolute;
+  top: 2.06rem;
+  left: 2.69rem;
+  font-weight: 300;
+  display: inline-block;
+  width: 16.75rem;
+  height: 10.25rem;
+}
+.rectangleGroup {
+  position: absolute;
+  top: 44rem;
+  left: 54rem;
+  box-shadow: 12px 11px 0 rgba(0, 0, 0, 0.25);
+  width: 30rem;
+  height: 80rem;
+  border-radius: 40px;
+
+}
+.frameChild1,
+.rectangleIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-21xl) var(--br-21xl) 0 0;
+  height: 60rem;
+}
+.rectangleIcon {
+  width: 30rem;
+  object-fit: cover;
+}
+.frameChild1 {
+  background: linear-gradient(180deg, #366683, rgba(27, 73, 101, 0.52));
+  width: 30rem;
+}
+
+.accidents {
+  position: absolute;
+  top: 1.62rem;
+  left: 2.56rem;
+  font-weight: 300;
+  display: inline-block;
+  width: 16.75rem;
+  height: 7.36rem;
+}
+.rectangleContainer {
+  position: absolute;
+  top: 57rem;
+  left: 92rem;
+  box-shadow: 12px 11px 0 rgba(0, 0, 0, 0.25);
+  width: 30rem;
+  height: 80rem;
+  border-radius: 40px;
+}
+.frameChild2,
+.frameChild3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-21xl) var(--br-21xl) 0 0;
+  height: 70rem;
+}
+.frameChild2 {
+  width: 30rem;
+  object-fit: cover;
+}
+.frameChild3 {
+  background: linear-gradient(180deg, #366683, rgba(27, 73, 101, 0.52));
+  width: 30rem;
+}
+.reportsAndAlertsContainer {
+  position: absolute;
+  top: 3.25rem;
+  left: 2.44rem;
+  font-weight: 300;
+  display: inline-block;
+  width: 16.75rem;
+  height: 90rem;
+}
+
+.frameDiv {
+  position: absolute;
+  top: 36rem;
+  left: 131rem;
+  box-shadow: 12px 11px 0 rgba(0, 0, 0, 0.25);
+  width: 30rem;
+  height: 80rem;
+  border-radius: 40px;
+}
+
+.chooseYourPlatform,
+.groupIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+
+.groupIcon {
+  width: 1.69rem;
+  height: 1.69rem;
+  object-fit: cover;
+  margin-left: 10.5rem;
+}
+
+.chooseYourPlatformParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0.94rem 1.88rem 1rem;
+  background-color: var(--color-darkslategray);
+  position: absolute;
+  top: 15rem;
+  left: 64%;
+  height: 7rem;
+  border-radius: 27px;
+  width: 38rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.home {
+  position: relative;
+  background: radial-gradient(50% 50%at 50% 50%, #fff, #cae9ff);
+  width: 100%;
+  height: 100rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-open-sans);
+}

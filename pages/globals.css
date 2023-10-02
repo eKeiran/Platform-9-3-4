@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-open-sans: "Open Sans";
+  --font-playfair-display: "Playfair Display";
+
+  /* font sizes */
+  --font-size-21xl: 4rem;
+
+  /* Colors */
+  --color-darkslategray: #1b4965;
+  --color-white: #fff;
+
+  /* Border radiuses */
+  --br-21xl: 40px;
+}
