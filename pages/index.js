@@ -51,7 +51,7 @@ const Home = () => {
           sx={{ width: 335 }}
           color="primary"
           variant="text"
-          style={{ color: 'white', fontSize: '35px' }} 
+          style={{ color: 'white', fontSize: '1.12rem' }} 
         >
           Choose your Platform
         </Button>

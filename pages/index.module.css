@@ -1,9 +1,9 @@
 .homeChild {
   position: absolute;
   top: 0;
-  left: 95rem;
-  width: 100rem;
-  height: 100rem;
+  left: 47.5rem;
+  width: 100%;
+  height: 100%;
   opacity: 0.8;
 }
 .cultivatingSafetyThrough,
@@ -14,174 +14,191 @@
 }
 
 .platform9 {
-  top: 6.5rem;
-  left: 7.81rem;
-  font-size: 15rem;
+  top: 3.25rem; 
+  left: 3.905rem; 
+  font-size: 7.5rem; 
   font-weight: 400;
   font-family: var(--font-playfair-display);
   color: var(--color-darkslategray);
-  
 }
+
 .cultivatingSafetyThrough {
-  top: 25.75rem;
-  left: 10rem;
-  font-size: 5rem;
+  top: 12.875rem; 
+  left: 5rem; 
+  font-size: 2.5rem; 
   font-weight: 300;
   font-family: inherit;
   color: #626262;
-  width: 60rem;
-  height: 11.69rem;
+  width: 30rem; 
+  height: 5.845rem; 
 }
+
 .frameChild,
 .frameItem {
   position: absolute;
   top: 0;
   left: 0;
   border-radius: var(--br-21xl) var(--br-21xl) 0 0;
-  height: 60rem;
+  height: 30rem;
 }
+
 .frameChild {
-  width: 30rem;
+  width: 15rem; 
   object-fit: cover;
 }
+
 .frameItem {
   background: linear-gradient(180deg, #366683, rgba(27, 73, 101, 0.52));
-  width: 30rem;
+  width: 15rem; 
 }
+
 .crowdManagement {
   position: absolute;
-  top: 2.09rem;
-  left: 2.63rem;
-  font-size: var(--font-size-21xl);
+  top: 1.045rem; 
+  left: 1.315rem; 
+  font-size: 2rem; 
   font-weight: 300;
   font-family: var(--font-open-sans);
   color: var(--color-white);
   text-align: left;
   display: inline-block;
-  width: 16.75rem;
-  height: 7.8rem;
+  width: 8.375rem;
+  height: 3.9rem; 
 }
+
 .rectangleParent {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
   position: absolute;
-  top: 52rem;
-  left: 15rem;
-  box-shadow: 12px 11px 0 rgba(0, 0, 0, 0.25);
-  width: 30rem;
-  height: 80rem;
-  border-radius: 40px;
+  top: 26rem;
+  left: 7.5rem; 
+  box-shadow: 12px 11px 5px rgba(0, 0, 0, 0.40);
+  width: 15rem; 
+  height: 40rem; 
+  border-radius: 40px; 
 }
+
 .frameInner,
 .rectangleDiv {
   position: absolute;
   top: 0;
   left: 0;
   border-radius: var(--br-21xl) var(--br-21xl) 0 0;
-  height: 70rem;
+  height: 35rem;
 }
+
 .frameInner {
-  width: 30rem;
+  width: 15rem; 
   object-fit: cover;
-  
 }
+
 .rectangleDiv {
   background: linear-gradient(180deg, #366683, rgba(27, 73, 101, 0.52));
-  width: 30rem;
+  width: 15rem; 
 }
+
 .crime {
   margin: 0;
 }
+
 .crimeAndViolenceContainer {
   position: absolute;
-  top: 2.06rem;
-  left: 2.69rem;
+  top: 1.03rem; 
+  left: 1.345rem; 
   font-weight: 300;
   display: inline-block;
-  width: 16.75rem;
-  height: 10.25rem;
+  width: 8.375rem; 
+  height: 5.125rem;
 }
+
 .rectangleGroup {
   position: absolute;
-  top: 44rem;
-  left: 54rem;
-  box-shadow: 12px 11px 0 rgba(0, 0, 0, 0.25);
-  width: 30rem;
-  height: 80rem;
-  border-radius: 40px;
-
+  top: 22rem; /* Reduced from 44rem */
+  left: 27rem; /* Reduced from 54rem */
+  box-shadow: 12px 11px 5px rgba(0, 0, 0, 0.40);
+  width: 15rem; /* Reduced from 30rem */
+  height: 40rem; /* Reduced from 80rem */
+  border-radius: 40px; 
 }
+
 .frameChild1,
 .rectangleIcon {
   position: absolute;
   top: 0;
   left: 0;
   border-radius: var(--br-21xl) var(--br-21xl) 0 0;
-  height: 60rem;
+  height: 30rem; /* Reduced from 60rem */
 }
+
 .rectangleIcon {
-  width: 30rem;
+  width: 15rem; /* Reduced from 30rem */
   object-fit: cover;
 }
+
 .frameChild1 {
   background: linear-gradient(180deg, #366683, rgba(27, 73, 101, 0.52));
-  width: 30rem;
+  width: 15rem; /* Reduced from 30rem */
 }
 
 .accidents {
   position: absolute;
-  top: 1.62rem;
-  left: 2.56rem;
+  top: 0.81rem; /* Reduced from 1.62rem */
+  left: 1.28rem; /* Reduced from 2.56rem */
   font-weight: 300;
   display: inline-block;
-  width: 16.75rem;
-  height: 7.36rem;
+  width: 8.375rem; /* Reduced from 16.75rem */
+  height: 3.68rem; /* Reduced from 7.36rem */
 }
+
 .rectangleContainer {
   position: absolute;
-  top: 57rem;
-  left: 92rem;
-  box-shadow: 12px 11px 0 rgba(0, 0, 0, 0.25);
-  width: 30rem;
-  height: 80rem;
-  border-radius: 40px;
+  top: 28.5rem; 
+  left: 46rem;
+  box-shadow: 12px 11px 5px rgba(0, 0, 0, 0.40);
+  width: 15rem; 
+  height: 40rem; 
+  border-radius: 40px; 
 }
+
 .frameChild2,
 .frameChild3 {
   position: absolute;
   top: 0;
   left: 0;
   border-radius: var(--br-21xl) var(--br-21xl) 0 0;
-  height: 70rem;
+  height: 35rem; 
 }
+
 .frameChild2 {
-  width: 30rem;
+  width: 15rem;
   object-fit: cover;
 }
+
 .frameChild3 {
   background: linear-gradient(180deg, #366683, rgba(27, 73, 101, 0.52));
-  width: 30rem;
+  width: 15rem; 
 }
+
 .reportsAndAlertsContainer {
   position: absolute;
-  top: 3.25rem;
-  left: 2.44rem;
+  top: 1.625rem; /* Reduced from 3.25rem */
+  left: 1.22rem; /* Reduced from 2.44rem */
   font-weight: 300;
   display: inline-block;
-  width: 16.75rem;
-  height: 90rem;
+  width: 8.375rem; /* Reduced from 16.75rem */
+  height: 45rem; /* Reduced from 90rem */
 }
 
 .frameDiv {
   position: absolute;
-  top: 36rem;
-  left: 131rem;
-  box-shadow: 12px 11px 0 rgba(0, 0, 0, 0.25);
-  width: 30rem;
-  height: 80rem;
-  border-radius: 40px;
+  top: 18rem; 
+  left: 65.5rem; 
+  box-shadow: 12px 11px 5px rgba(0, 0, 0, 0.40);
+  width: 15rem; 
+  height: 40rem; 
+  border-radius: 40px; 
 }
 
 .chooseYourPlatform,
@@ -194,37 +211,38 @@
 }
 
 .groupIcon {
-  width: 1.69rem;
-  height: 1.69rem;
+  width: 0.845rem; /* Reduced from 1.69rem */
+  height: 0.845rem; /* Reduced from 1.69rem */
   object-fit: cover;
-  margin-left: 10.5rem;
+  margin-left: 5.25rem; /* Reduced from 10.5rem */
 }
 
 .chooseYourPlatformParent {
   cursor: pointer;
   border: 0;
-  padding: 0.94rem 1.88rem 1rem;
+  padding: 0.47rem 0.94rem 0.5rem;
   background-color: var(--color-darkslategray);
   position: absolute;
-  top: 15rem;
+  top: 7.5rem; 
   left: 64%;
-  height: 7rem;
-  border-radius: 27px;
-  width: 38rem;
+  height: 3.5rem; 
+  border-radius: 13.5px; 
+  width: 19rem; 
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
   white-space: nowrap;
 }
+
 .home {
   position: relative;
-  background: radial-gradient(50% 50%at 50% 50%, #fff, #cae9ff);
-  width: 100%;
-  height: 100rem;
+  background: radial-gradient(50% 50% at 50% 50%, #fff, #cae9ff);
+  width: 100%; /* Reduced from 100% */
+  height: 50rem; 
   overflow: hidden;
   text-align: left;
-  font-size: var(--font-size-21xl);
+  font-size: 2rem; 
   color: var(--color-white);
   font-family: var(--font-open-sans);
 }

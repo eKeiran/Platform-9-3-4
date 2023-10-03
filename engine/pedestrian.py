@@ -14,8 +14,8 @@ background_subtractor = cv2.createBackgroundSubtractorMOG2()
 for i in range(120):
     ret, frame = capture.read()
     filter = background_subtractor.apply(frame)
-    cv2.imwrite('./frame.jpg', frame)
-    cv2.imwrite('./diff-bkgnd-frame.jpg', filter)
+    cv2.imwrite('frame.jpg', frame)
+    cv2.imwrite('diff-bkgnd-frame.jpg', filter)
 
     ret, th = cv2.threshold(filter, 2, 2, cv2.THRESH_BINARY)
     output = cv2.add(output, th)
