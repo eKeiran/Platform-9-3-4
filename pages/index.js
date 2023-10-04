@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className={styles.home}>
       <img className={styles.homeChild} alt="" src="/group-15.svg" />
-      <h1 className={styles.platform9}>Platform 9¾</h1>
+      <h1 className={styles.platform9}>RailGuard</h1>
       <h3 className={styles.cultivatingSafetyThrough}>
         Cultivating safety through innovation.
       </h3>
