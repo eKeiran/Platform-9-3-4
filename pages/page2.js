@@ -1,7 +1,25 @@
 import './globals.css'
+import './body.css'
+import React, { useState, useRef } from 'react';
+
 const Crowd = () => {
+  const [isVideoPlaying, setIsVideoPlaying] = useState(false);
+  const videoRef = useRef(null);
+
+  const toggleVideo = () => {
+    if (videoRef.current) {
+      if (isVideoPlaying) {
+        videoRef.current.pause();
+      } else {
+        videoRef.current.play();
+      }
+      setIsVideoPlaying(!isVideoPlaying);
+    }
+  };
   return (
+      <div className='page-content'>
     <div className="relative [background:radial-gradient(50%_50%_at_50%_50%,_#fff,_#cae9ff)] w-full h-[66rem] overflow-hidden text-left text-[1.44rem] text-darkslategray ">
+      
       <div className="absolute top-[-1rem] left-[0rem] w-[24.29rem] overflow-hidden flex flex-col items-center justify-end py-[0rem] px-[0rem] box-border">
         <div className="self-stretch bg-gray-100 overflow-hidden flex flex-col items-start justify-end pt-[3.56rem] pb-[2.75rem] pr-[2.19rem] pl-[2.44rem] gap-[1.94rem]">
           <div className="self-stretch relative rounded-xl bg-white shadow-[0px_5px_8px_rgba(0,_0,_0,_0.25)] h-[21rem] overflow-hidden shrink-0">
@@ -49,11 +67,16 @@ const Crowd = () => {
         <div className="absolute top-[57.94rem] left-[38.38rem] text-[1.38rem] font-semibold inline-block w-[19rem] h-[2.13rem]">
           Real Time Crowd Detection
         </div>
-        <img
-          className="absolute top-[60.75rem] left-[38.31rem] rounded-8xs w-[40.06rem] h-[17.63rem] object-cover"
-          alt=""
-          src="/image 8.svg"
-        />
+        <div className="absolute top-[60.75rem] left-[38.31rem] rounded-8xs w-[40.06rem] h-[17.63rem] object-cover">
+          <video
+            ref={videoRef}
+            controls
+            style={{ width: '100%', height: '100%', objectFit: 'cover'}}
+          >
+            <source src="/SIH VIDEO.mp4" type="video/mp4" />
+          </video>
+       
+      </div>
         <div className="absolute top-[24.06rem] left-[47.44rem] rounded-6xs box-border w-[6.19rem] h-[2.06rem] text-[1rem] border-[1px] border-solid border-lightgray">
           <div className="absolute top-[0.31rem] left-[1.13rem] inline-block w-[3.63rem] h-[1.5rem]">
             Today
@@ -256,6 +279,8 @@ const Crowd = () => {
           Pune Station
         </div>
       </div>
+    
+    </div>
     </div>
   );
 };
